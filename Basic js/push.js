@@ -12,3 +12,7 @@ const removedFromMyArray = myArray.pop();
 // Use the .shift() function to remove the first item from myArray and assign the "shifted off" value to a new variable, removedFromMyArray.
 
 const removedFromMyArray = myArray.shift();
+
+// Manipulate Arrays With unshift()
+// nshift() works exactly like .push(), but instead of adding the element at the end of the array, unshift() adds the element at the beginning of the array.
+myArray.unshift(["Paul", 35]);
